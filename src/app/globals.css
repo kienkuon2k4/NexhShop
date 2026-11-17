@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --amz-header-bg: #273142;
+  --amz-subnav-bg: #1f2735;
+  --amz-footer-bg: #1a222e;
+  --amz-bg: #f1f5f9;
+  --amz-yellow: #f59e0b;
+  --amz-orange: #f97316;
+  --amz-price: #b12704;
+}
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+  width: 100%;
+}
+
+body {
+  background-color: var(--amz-bg);
+  color: #0f172a;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.price-sub {
+  font-size: 0.65em;
+  vertical-align: top;
+  position: relative;
+  top: 0.15em;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 9999px;
+}
+
+.header-chip {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.header-chip:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.25);
+}
