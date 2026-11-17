@@ -1,4 +1,5 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+[![Architecture diagram of kienkuon2k4/nexhshop](https://gitdiagram.com/kienkuon2k4/nexhshop/diagram.png)](https://gitdiagram.com/kienkuon2k4/nexhshop?utm_source=readme&utm_medium=picture)
 
 ## Getting Started
 
